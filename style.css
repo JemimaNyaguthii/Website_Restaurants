@@ -271,7 +271,7 @@ text-align: center;
     display: flex;
     flex-direction: row;
 }
-.right{
+.rights{
     display: flex;
     justify-content: space-between;
     background-color: #fab005;
