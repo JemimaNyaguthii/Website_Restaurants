@@ -1,11 +1,23 @@
-.Heading{
-    display: flex;
-    gap:7%;
+.heading{
+ display: flex;
+ gap:7%;
+ font-size: 20px;
+}
+#sign{
+    margin-left: 120px;
+    
+}
+.body{
+    font-family: 'Karla', sans-serif; 
+    font-size: 20px;
 }
 #house{
-    font-style: italic;
-    color:rgb(168, 168, 22);
-    font-size: larger;
+    /* font-style: italic; */
+    color:#ffd43b;
+    font-size: 40px;
+    font-family: 'Great Vibes', cursive;
+    margin-top: 7px;
+    margin-right:100px;
 }
 #yellow{
     color: #fab005;
@@ -21,51 +33,45 @@
 }
 #title{
     font-weight: 900;
-     font-size:35px ; 
+     
 }
 #healthy{
     color: #ffd43b;
 }
-.paragraph{
-    font-size:larger;
- 
 
-}
 #buttonorder{
     color:white;
     background-color: #fcc419;
-    border-radius: 10px;
+    border-radius: 10px 0px;
     padding: 20px;
     /* border-color: #fcc419; */
     border-style: none;
 }
 #chicken{
-   height: 50%;
-   width:25% ;
+   height: 70vh;
+   width:40% ;
 }
 .popularfoods{
     margin-top: 5%;
     display: flex;
-    gap:5%;
-    margin-left: 10%;
+     gap:5%;
+     margin-left: 6%;  
     margin-bottom: 10%;
 } 
 #online{
     margin-left: 50%;
-    font-style: italic;
-    font-size: larger;
+    font-size: 40px;
+font-family: 'Great Vibes', cursive;
+
 }
 #popular{
     margin-left: 40%;
-    font-size: xx-large;
     margin-bottom: 7%;
-   
-
 }
 #fish{
     height:200px; 
     border-radius: 60%; 
-    width: 70%; 
+      width: 70%;  
      
 }
 #chips{
@@ -80,35 +86,39 @@
 }
 #pizza{
     height:200px;
-    width:150%;
-     border-radius: 80%; 
+     width:110%; 
+     border-radius: 65%; 
+}
+#star{
+    color:#ffd43b;
+   
 }
 #button1{
     background-color:#fcc419;
     color: white;
     padding:20px 30px;
-    border-radius:15px ;
+    border-radius:50px ;
     border-style: none;
 }
 #button2{
     background-color:#fcc419;
     color: white;
     padding:20px 30px;
-    border-radius:15px ;
+    border-radius:50px ;
     border-style: none;
 }
 #button3{
     background-color:#fcc419;
     color: white;
     padding:20px 30px;
-    border-radius:15px ;
+    border-radius:50px ;
     border-style: none;
 }
 #button4{
     background-color:#fcc419;
     color: white;
     padding:20px 30px;
-    border-radius:15px ;
+    border-radius:50px ;
     border-style: none;
     margin-bottom: 30%;
     
@@ -117,7 +127,7 @@
     background-color:#fcc419;
     color: white;
     padding:20px 30px;
-    border-radius:15px ;
+    border-radius:20px 0px ;
     border-style: none;   
 }
 #offers{
@@ -131,7 +141,8 @@
     color: white;
     padding:15px;
     border-radius:10px ;
-    border-style: none;   
+    border-style: none; 
+    box-shadow: 10px;  
 }
  #tuna{
     height: 400px; 
@@ -161,13 +172,33 @@
     display: flex;
     margin-left: 7%;
     gap:5%;
+    /* background-color: ; */
 }
+.Burger{
+    background-color:white;
+    
+}
+
 #burger{
-    height: 70px;
-    /* margin-bottom: 3%; */
+    height: 80px; 
+     border-radius: 75%;
+    /* float: right; */
+   /* display: flex; */
+   
+    
 }
 #salad{
-    height: 60px;
+    height: 100px;
+    border-radius: 75%;
+    width: 150px; 
+}
+#logoo{
+    height: 100px;
+    border-radius: 75%;
+
+}
+#cost{
+    color:#ffd43b;
 }
 #icons{
     height: 70px;
@@ -231,14 +262,21 @@ text-align: center;
 }
 #google{
     height: 40px;
-    margin-bottom: 17%;
+    margin-bottom: 13%;
 }
 .flex{
     display: flex;
-    justify-content: space-between;
+    gap:10%;
     color: white;
-    background-color:black;
- }
+    background-color:black;}
+    #foodhouse{
+        margin-left: 5%;
+    }
+    #fullstop{
+        color: #fcc419;
+    }
+   
+ 
 #download{
     color:#fab005;
     font-size: larger;
@@ -255,28 +293,116 @@ text-align: center;
     border-radius:15px ;
     border-style: none;   
 }
+#logo{
+    color:#ffd43b;
+    background-color: white;
+    border-radius: 5px;
+    height: 25px;
+    width: 7%;
+    
+   
+}
 .email{
     margin-left:25%;
 }
-/* .email{
-    display:flex;
-     float: right; 
-    /* margin-right: 30%; */
-    /* background-color: white;
-    
-    
-} */ 
 .subscribe{
     margin-bottom: 6%;
     display: flex;
     flex-direction: row;
+    margin-left: 4%;
 }
 .rights{
     display: flex;
-    justify-content: space-between;
+   gap: 15%;
     background-color: #fab005;
-  
+    color: white; 
 }
+
+@media (max-width:425px){
+    .heading{
+  flex-direction: column;
+  margin-left: 0px;
+  gap: 1px;
+    }
+    .body{
+        margin: 0px;
+
+    }
+    .Intro{
+        flex-direction: column;
+       
+    }   
+    #chicken {
+        height: 40vh;
+        width: 80%;
+    }
+    .popularfoods{
+        margin-top: 5%;
+        flex-direction: column;
+         gap:5%;
+         margin-left: 0%;  
+        margin-bottom: 10%;
+    } 
+    #pizza{
+        height: 30vh;
+        width:60%;
+       
+    }
+    #tuna{
+        height:20vh;
+        width:20%;
+
+    }
+    .Specialoffer{
+      flex-direction: column;
+        margin-bottom: 7%;
+}
+.Display{ 
+flex-direction: column;
+margin-left:0px;
+gap:5%;
+}
+#burger{
+    height: 40vh; 
+     
+     width: 50%;
+}
+#logoo{
+    height: 40vh;
+    width:50%;
+
+}
+.space{
+    width: 500px;
+}
+.services{
+   flex-direction: column;
+    gap:15%;
+    margin-left: 4%;
+    font-size: large;
+   
+}
+
+  
+
+.flex{
+    flex-direction: column;
+    margin-right: 0%;
+}
+.about{
+    flex-direction: column;
+}
+.subscribe{
+    flex-direction: column;
+}
+  .rights{
+   display: flex;
+  }  
+ 
+
+}
+   
+    
 
 
 
